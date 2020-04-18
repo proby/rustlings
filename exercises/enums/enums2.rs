@@ -1,10 +1,12 @@
 // enums2.rs
 // Make me compile! Execute `rustlings hint enums2` for hints!
 
-// I AM NOT DONE
-
 #[derive(Debug)]
 enum Message {
+    Quit,
+    Echo(String),
+    Move { x: usize, y: usize },
+    ChangeColor(usize, usize, usize),    
     // TODO: define the different variants used below
 }
 
